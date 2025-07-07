@@ -267,6 +267,7 @@ El objetivo es crear una alarma basada en los KPI simulados, que se agruparán e
 ⸻
 
 1️⃣ Crear una condición de activación en un KPI
+
 1. Vaya a ITSI > Configuración > Servicios.
 2. Seleccione uno de los servicios creados (por ejemplo, API de backend).
 3. Vaya a la pestaña KPI y elija un KPI (por ejemplo, Uso de CPU).
@@ -290,7 +291,9 @@ Ahora debemos asegurarnos de que los eventos generados por los KPI se agrupen co
 4. Vaya a Condiciones de disparo y agregue:
 • Si la gravedad es crítica, cree un evento notable.
 5. Elija un grupo de eventos para esta alarma (por ejemplo, Alertas de infraestructura).
-6. Haga clic en Guardar. ⸻
+6. Haga clic en Guardar.
+
+⸻
 
 3️⃣ Consulta los episodios creados
 1. Ve a ITSI > Alertas y episodios.
